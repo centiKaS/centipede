@@ -37,7 +37,7 @@ public class NPC : MonoBehaviour, IInteractable
     void StartDialogue()
     {
         isDialogueActive = true;
-        dialogueIndex = 0
+        dialogueIndex = 0;
 
         nameText.SetText(dialogueData.npcName);
         portraitImage.sprite = dialogueData.npcPortrait;
