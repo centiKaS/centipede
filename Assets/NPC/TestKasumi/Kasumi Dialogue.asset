@@ -18,5 +18,5 @@ MonoBehaviour:
   - yo
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
-  autoProgressLines: 
+  autoProgressLines: 0000
   autoProgressDelay: 1.5
