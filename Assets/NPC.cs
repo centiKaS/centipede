@@ -21,7 +21,7 @@ public class NPC : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-        if(dialogueData != null || (PauseController.IsGamePaused && !isDialogueActive))
+        if(dialogueData == null || (PauseController.IsGamePaused && !isDialogueActive))
             return;
 
         if(isDialogueActive)
@@ -36,48 +36,80 @@ public class NPC : MonoBehaviour, IInteractable
 
     void StartDialogue()
     {
+        if (dialogueData == null)
+        {
+            Debug.LogError("Dialogue data is not assigned to NPC.");
+            return;
+        }
+
         isDialogueActive = true;
         dialogueIndex = 0;
 
-        nameText.SetText(dialogueData.npcName);
-        portraitImage.sprite = dialogueData.npcPortrait;
+        if (nameText != null)
+            nameText.SetText(dialogueData.npcName);
+        if (portraitImage != null)
+            portraitImage.sprite = dialogueData.npcPortrait;
 
-        dialoguePanel.SetActive(true);
-        PauseController.SetPause(true);
-
-        StartCoroutine(TypeLine());
-    }
-
-    void NextLine()
-    {
+        if (dialoguePanel != null)
+            dialoguePanel.SetActive(true);
+            //-- skip typing anim show full line
+            StopAllCoroutines();
+            if (dialogueData.dialogueLines != null && dialogueIndex >= 0 && dialogueIndex < dialogueData.dialogueLines.Length)
+            {
+                dialogueText.SetText(dialogueData.dialogueLines[dialogueIndex]);
+            }
+            else
         if(isTyping)
         {
             //-- skip typing anim show full line
             StopAllCoroutines();
-            dialogueText.SetText(dialogueData.dialogueLines[dialogueIndex]);
+            if (dialogueData != null && dialogueData.dialogueLines != null && dialogueIndex >= 0 && dialogueIndex < dialogueData.dialogueLines.Length)
+                dialogueText.SetText(dialogueData.dialogueLines[dialogueIndex]);
             isTyping = false;
         }
-        else if (++dialogueIndex < dialogueData.dialogueLines.Length)
+        else if (dialogueData != null && dialogueData.dialogueLines != null && dialogueIndex + 1 < dialogueData.dialogueLines.Length)
         {
+            dialogueIndex++;
             StartCoroutine(TypeLine());
         }
         else
         {
             EndDialogue();
         }
-
+            dialogueIndex++;
+            StartCoroutine(TypeLine());
     IEnumerator TypeLine()
     {
         isTyping = true;
         dialogueText.SetText("");
 
-        foreach(char letter in dialogueData.dialogueLines[dialogueIndex])
+        if (dialogueData == null || dialogueData.dialogueLines == null || dialogueIndex < 0 || dialogueIndex >= dialogueData.dialogueLines.Length)
         {
-            dialogueText.text += letter;
+            isTyping = false;
+            yield break;
+        }
+
+        string line = dialogueData.dialogueLines[dialogueIndex];
+        System.Text.StringBuilder sb = new System.Text.StringBuilder();
+        float timer = 0f;
+        int i = 0;
+
+        while (i < line.Length)
+        {
+            sb.Append(line[i]);
+            dialogueText.text = sb.ToString();
+            i++;
             yield return new WaitForSeconds(dialogueData.typingSpeed);
         }
 
         isTyping = false;
+
+        if(dialogueData.autoProgressLines != null && dialogueData.autoProgressLines.Length > dialogueIndex && dialogueData.autoProgressLines[dialogueIndex])
+        {
+            yield return new WaitForSeconds(dialogueData.autoProgressDelay);
+            NextLine();
+        }
+    }
 
         if(dialogueData.autoProgressLines.Length > dialogueIndex && dialogueData.autoProgressLines[dialogueIndex])
         {

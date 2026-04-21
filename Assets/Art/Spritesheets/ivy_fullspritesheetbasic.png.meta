@@ -1,0 +1,470 @@
+fileFormatVersion: 2
+guid: 30d075c529126424ea09e21eb8c74b2d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -771518315113267253
+    second: ivy_fullspritesheetbasic_0
+  - first:
+      213: -6649910505792987498
+    second: ivy_fullspritesheetbasic_1
+  - first:
+      213: -7172069907514778487
+    second: ivy_fullspritesheetbasic_2
+  - first:
+      213: -8074717522277542573
+    second: ivy_fullspritesheetbasic_3
+  - first:
+      213: 6036110378368073393
+    second: ivy_fullspritesheetbasic_4
+  - first:
+      213: 7486981557297760022
+    second: ivy_fullspritesheetbasic_5
+  - first:
+      213: 3700257859193778349
+    second: ivy_fullspritesheetbasic_6
+  - first:
+      213: -3992721537195737585
+    second: ivy_fullspritesheetbasic_7
+  - first:
+      213: 6034627591847654792
+    second: ivy_fullspritesheetbasic_8
+  - first:
+      213: -2689863824193888905
+    second: ivy_fullspritesheetbasic_9
+  - first:
+      213: 4590669215678954260
+    second: ivy_fullspritesheetbasic_10
+  - first:
+      213: -339978508222997365
+    second: ivy_fullspritesheetbasic_11
+  - first:
+      213: -5831034946961777535
+    second: ivy_fullspritesheetbasic_12
+  - first:
+      213: -3081639536540043049
+    second: ivy_fullspritesheetbasic_13
+  - first:
+      213: 1634875771336211682
+    second: ivy_fullspritesheetbasic_14
+  - first:
+      213: -7245364284581539003
+    second: ivy_fullspritesheetbasic_15
+  - first:
+      213: -1144326529912017524
+    second: ivy_fullspritesheetbasic_16
+  - first:
+      213: -9041208467504718670
+    second: ivy_fullspritesheetbasic_17
+  - first:
+      213: 6015820407983539663
+    second: ivy_fullspritesheetbasic_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ivy_walkdown1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1884
+        width: 300
+        height: 560
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf37f91e240b45f0800000000000000
+      internalID: -771518315113267253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivy_idledown
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1888
+        width: 300
+        height: 560
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e1212b0a5c6b3a0800000000000000
+      internalID: -6649910505792987498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivy_walkdown2
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 1885
+        width: 300
+        height: 560
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be7daf886294c350800000000000000
+      internalID: 6036110378368073393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivy_walkleft1
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1268
+        width: 300
+        height: 560
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61742a20f0a17e760800000000000000
+      internalID: 7486981557297760022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivy_idleleft
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1266
+        width: 300
+        height: 560
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0b79a0be4f95330800000000000000
+      internalID: 3700257859193778349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivy_walkleft2
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1275
+        width: 300
+        height: 560
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ddfb87a1fabaad0800000000000000
+      internalID: -2689863824193888905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivy_walkright1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 651
+        width: 300
+        height: 560
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8cd91a1957284bf0800000000000000
+      internalID: -339978508222997365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivy_idleright
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 644
+        width: 300
+        height: 560
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c54712c90041fa0800000000000000
+      internalID: -5831034946961777535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivy_walkright2
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 644
+        width: 300
+        height: 560
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d83bb23b21db35d0800000000000000
+      internalID: -3081639536540043049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivy_walkup1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 35
+        width: 300
+        height: 560
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec33622ade30b610800000000000000
+      internalID: 1634875771336211682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivy_idleup
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 38
+        width: 300
+        height: 560
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8de98d75198e10f0800000000000000
+      internalID: -1144326529912017524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivy_walkup2
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 35
+        width: 300
+        height: 560
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc58762b9cc7c7350800000000000000
+      internalID: 6015820407983539663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 46077fd4d77ed164cbc1408b95f48d2a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ivy_fullspritesheetbasic_10: 4590669215678954260
+      ivy_fullspritesheetbasic_15: -7245364284581539003
+      ivy_fullspritesheetbasic_17: -9041208467504718670
+      ivy_fullspritesheetbasic_2: -7172069907514778487
+      ivy_fullspritesheetbasic_3: -8074717522277542573
+      ivy_fullspritesheetbasic_7: -3992721537195737585
+      ivy_fullspritesheetbasic_8: 6034627591847654792
+      ivy_idledown: -6649910505792987498
+      ivy_idleleft: 3700257859193778349
+      ivy_idleright: -5831034946961777535
+      ivy_idleup: -1144326529912017524
+      ivy_walkdown1: -771518315113267253
+      ivy_walkdown2: 6036110378368073393
+      ivy_walkleft1: 7486981557297760022
+      ivy_walkleft2: -2689863824193888905
+      ivy_walkright1: -339978508222997365
+      ivy_walkright2: -3081639536540043049
+      ivy_walkup1: 1634875771336211682
+      ivy_walkup2: 6015820407983539663
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
