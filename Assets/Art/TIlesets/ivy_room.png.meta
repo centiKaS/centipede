@@ -1,0 +1,460 @@
+fileFormatVersion: 2
+guid: 3dae23602b26a3f4c96461271a658eb4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3171595885172613410
+    second: ivy_room_0
+  - first:
+      213: 1608204351676337682
+    second: ivy_room_1
+  - first:
+      213: 8472976431436327615
+    second: ivy_room_2
+  - first:
+      213: 3657655976283030455
+    second: ivy_room_3
+  - first:
+      213: 1721705150921441595
+    second: ivy_room_4
+  - first:
+      213: -391285465345814388
+    second: ivy_room_5
+  - first:
+      213: 969055283869623373
+    second: ivy_room_6
+  - first:
+      213: -3005325444267142721
+    second: ivy_room_7
+  - first:
+      213: 8497013618174465595
+    second: ivy_room_8
+  - first:
+      213: -1694103319481086778
+    second: ivy_room_9
+  - first:
+      213: 8881990288610328426
+    second: ivy_room_10
+  - first:
+      213: -2802747815031402033
+    second: ivy_room_11
+  - first:
+      213: 5624111677866360091
+    second: ivy_room_12
+  - first:
+      213: 1155335307806944023
+    second: ivy_room_13
+  - first:
+      213: 3976876611105935161
+    second: ivy_room_14
+  - first:
+      213: -7269660005560997044
+    second: ivy_room_15
+  - first:
+      213: 9195646782609948302
+    second: ivy_room_16
+  - first:
+      213: 4397134523472603685
+    second: ivy_room_17
+  - first:
+      213: -4392710264472225801
+    second: ivy_room_18
+  - first:
+      213: 8045822237261845597
+    second: ivy_room_19
+  - first:
+      213: -9055344756142704075
+    second: ivy_room_20
+  - first:
+      213: -364333440235283119
+    second: ivy_room_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ivy_room_2
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1408
+        width: 134
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbae4023c2f069570800000000000000
+      internalID: 8472976431436327615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivy_room_4
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 1354
+        width: 31
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3102a876b9b4e710800000000000000
+      internalID: 1721705150921441595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivy_room_5
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1348
+        width: 285
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c801a4041ffd19af0800000000000000
+      internalID: -391285465345814388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivy_room_7
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1349
+        width: 261
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1930c6e60fa46d0800000000000000
+      internalID: -3005325444267142721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivy_room_9
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 901
+        width: 83
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc0585b1065d78e0800000000000000
+      internalID: -1694103319481086778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivy_room_10
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 900
+        width: 154
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f7613db1b234b70800000000000000
+      internalID: 8881990288610328426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivy_room_11
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 876
+        width: 191
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc11d0a36b3aa19d0800000000000000
+      internalID: -2802747815031402033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivy_room_16
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 871
+        width: 113
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8efd6537008d9f70800000000000000
+      internalID: 9195646782609948302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivy_room_18
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 402
+        width: 331
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7bbecb945f903c0800000000000000
+      internalID: -4392710264472225801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivy_room_20
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 429
+        width: 182
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53afa6bebe3f45280800000000000000
+      internalID: -9055344756142704075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivy_room_21
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 393
+        width: 412
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ddafa9aa0a1faf0800000000000000
+      internalID: -364333440235283119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e91bf319b3ac50d45b57e698ef9d59f9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ivy_room_0: 3171595885172613410
+      ivy_room_1: 1608204351676337682
+      ivy_room_10: 8881990288610328426
+      ivy_room_11: -2802747815031402033
+      ivy_room_12: 5624111677866360091
+      ivy_room_13: 1155335307806944023
+      ivy_room_14: 3976876611105935161
+      ivy_room_15: -7269660005560997044
+      ivy_room_16: 9195646782609948302
+      ivy_room_17: 4397134523472603685
+      ivy_room_18: -4392710264472225801
+      ivy_room_19: 8045822237261845597
+      ivy_room_2: 8472976431436327615
+      ivy_room_20: -9055344756142704075
+      ivy_room_21: -364333440235283119
+      ivy_room_3: 3657655976283030455
+      ivy_room_4: 1721705150921441595
+      ivy_room_5: -391285465345814388
+      ivy_room_6: 969055283869623373
+      ivy_room_7: -3005325444267142721
+      ivy_room_8: 8497013618174465595
+      ivy_room_9: -1694103319481086778
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
