@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "com.discord.partnersdk": "file:C:/Users/lxven/Downloads/DiscordSocialSdk-UnityPlugin-1.9.15332/com.discord.partnersdk",
     "com.unity.cinemachine": "3.1.6",
     "com.unity.collab-proxy": "2.12.4",
     "com.unity.feature.2d": "2.0.1",

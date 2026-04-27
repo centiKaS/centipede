@@ -1,11 +1,5 @@
 {
   "dependencies": {
-    "com.discord.partnersdk": {
-      "version": "file:C:/Users/lxven/Downloads/DiscordSocialSdk-UnityPlugin-1.9.15332/com.discord.partnersdk",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {}
-    },
     "com.unity.2d.animation": {
       "version": "10.2.1",
       "depth": 1,
