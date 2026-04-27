@@ -16,7 +16,8 @@ MonoBehaviour:
   npcPortrait: {fileID: -2227294742669426013, guid: 46b553059490de64995dd729ca7eb2b7, type: 3}
   dialogueLines:
   - yo
+  - hi
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
-  autoProgressLines: 0000
+  autoProgressLines: 0100
   autoProgressDelay: 1.5

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac7a5a704f61da40b17e5dad3038aa0, type: 3}
+  m_Name: TripleT Dialogue
+  m_EditorClassIdentifier: 
+  npcName: Tung Tung Tung Sahur
+  npcPortrait: {fileID: 5107794548244967387, guid: 0edc75b93ff4267498440c695e44eafe, type: 3}
+  dialogueLines:
+  - I AM TUNG TUNG TUNG SAHUR
+  - HELLO
+  typingSpeed: 0.05
+  voiceSound: {fileID: 0}
+  autoProgressLines: 0100
+  autoProgressDelay: 1.5
