@@ -16,8 +16,22 @@ MonoBehaviour:
   npcPortrait: {fileID: -2227294742669426013, guid: 46b553059490de64995dd729ca7eb2b7, type: 3}
   dialogueLines:
   - yo
-  - hi
+  - ???
+  - i agree
+  - actually
+  - im not too sure
+  - i dont agree
+  - actually
+  - did you know?
+  autoProgressLines: 0000000000000000
+  endDialogueLines: 0000000001000001
+  autoProgressDelay: 1.5
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
-  autoProgressLines: 0000
-  autoProgressDelay: 1.5
+  voicePitch: 1
+  choices:
+  - dialogueIndex: 1
+    choices:
+    - Yes
+    - No
+    nextDialogueIndexes: 0200000005000000
