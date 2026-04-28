@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cac7a5a704f61da40b17e5dad3038aa0, type: 3}
   m_Name: Bed Dialogue
   m_EditorClassIdentifier: 
-  npcName: Door
+  npcName: Bed
   npcPortrait: {fileID: -2227294742669426013, guid: 46b553059490de64995dd729ca7eb2b7, type: 3}
   dialogueLines:
-  - It's a door. I think.
+  - Lovely.
   autoProgressLines: 00
   endDialogueLines: 00
   autoProgressDelay: 1.5

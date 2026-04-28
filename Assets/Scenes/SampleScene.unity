@@ -1105,6 +1105,7 @@ GameObject:
   - component: {fileID: 250180923}
   - component: {fileID: 250180922}
   - component: {fileID: 250180924}
+  - component: {fileID: 250180925}
   m_Layer: 0
   m_Name: ivy_room_21
   m_TagString: Untagged
@@ -1228,6 +1229,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.12, y: 1.7692906}
   m_EdgeRadius: 0
+--- !u!114 &250180925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250180921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69667b50b5b8b3643af40a5fdfac1212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueData: {fileID: 11400000, guid: 5955e35a9ff029140b56bf7ea45ddca0, type: 2}
 --- !u!114 &326220359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6902,7 +6916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86a034eaaf9fa684084c8ace4fc676a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 4
 --- !u!114 &1559883856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7118,7 +7132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemPrefabs:
-  - {fileID: 1045927566373824691, guid: c79df03c7f1a3b147b33507a21bcd3c3, type: 3}
+  - {fileID: 1045927566373824691, guid: cd2f447ba2799a34c8716eca5803ce54, type: 3}
 --- !u!1 &1641217998
 GameObject:
   m_ObjectHideFlags: 0
@@ -7914,6 +7928,7 @@ GameObject:
   - component: {fileID: 1799208773}
   - component: {fileID: 1799208772}
   - component: {fileID: 1799208774}
+  - component: {fileID: 1799208775}
   m_Layer: 0
   m_Name: ivy_room_10
   m_TagString: Untagged
@@ -8037,6 +8052,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.54, y: 1.4176965}
   m_EdgeRadius: 0
+--- !u!114 &1799208775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799208771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69667b50b5b8b3643af40a5fdfac1212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueData: {fileID: 11400000, guid: 4d0cee18b23ce2042989e77999312e70, type: 2}
 --- !u!114 &1804084608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8502,6 +8530,7 @@ GameObject:
   - component: {fileID: 2020663905}
   - component: {fileID: 2020663904}
   - component: {fileID: 2020663906}
+  - component: {fileID: 2020663907}
   m_Layer: 0
   m_Name: ivy_room_11
   m_TagString: Untagged
@@ -8625,6 +8654,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.91, y: 1.7480695}
   m_EdgeRadius: 0
+--- !u!114 &2020663907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020663903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69667b50b5b8b3643af40a5fdfac1212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueData: {fileID: 11400000, guid: a74fb0dff51e4cd419287d25cd29cd16, type: 2}
 --- !u!1 &2038707957
 GameObject:
   m_ObjectHideFlags: 0
