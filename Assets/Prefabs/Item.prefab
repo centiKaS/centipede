@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1187425440524457954}
   - component: {fileID: 4536509203373561280}
   - component: {fileID: 560807227969156079}
-  - component: {fileID: 4838915403452103514}
   - component: {fileID: 3918170775811282606}
   - component: {fileID: 1045927566373824691}
   m_Layer: 5
@@ -69,7 +68,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5107794548244967387, guid: 0edc75b93ff4267498440c695e44eafe, type: 3}
+  m_Sprite: {fileID: 1927554759, guid: 09cd92f533cc3d34da7debc63d2f8002, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -91,19 +90,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &4838915403452103514
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 662907629567414609}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05fc7a7522b7cb04b93afc6ec9a7e93b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentItem: {fileID: 0}
 --- !u!114 &3918170775811282606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,3 +114,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 734bf646a1cbde944b1e0475f55dbd0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ID: 1
