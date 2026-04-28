@@ -14,3 +14,12 @@ public class NPCDialogue : ScriptableObject
     public bool[] autoProgressLines;
     public float autoProgressDelay = 1.5f;
 }
+
+[System.Serializable]
+
+public class DialogueChoice
+{
+    public int dialogueIndex;
+    public string[] choices;
+    public int[] nextDialogueIndexes;
+}
