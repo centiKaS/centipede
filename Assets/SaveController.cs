@@ -46,7 +46,7 @@ public class SaveController : MonoBehaviour
  
             //FindObjectOfType<CinemachineConfiner>().m_BoundingShape2D = GameObject.Find(saveData.mapBoundry).GetComponent<PolygonCollider2D>();;
 
-            //inventoryController.SetInventoryItems(saveData.inventorySaveData);
+            inventoryController.SetInventoryItems(saveData.inventorySaveData);
         }
         else
         {
