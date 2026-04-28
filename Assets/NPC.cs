@@ -65,7 +65,7 @@ public class NPC : MonoBehaviour, IInteractable
             return;
         }
 
-        foreach(DialogueChoice. dialogueChoice in dialogueData.choices)
+        foreach(DialogueChoice dialogueChoice in dialogueData.choices)
         {
             if(dialogueChoice.dialogueIndex == dialogueIndex)
             {
