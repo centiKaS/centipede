@@ -843,6 +843,7 @@ GameObject:
   - component: {fileID: 138061419}
   - component: {fileID: 138061418}
   - component: {fileID: 138061420}
+  - component: {fileID: 138061421}
   m_Layer: 0
   m_Name: ivy_room_5
   m_TagString: Untagged
@@ -966,6 +967,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.85, y: 0.11500311}
   m_EdgeRadius: 0
+--- !u!114 &138061421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138061417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69667b50b5b8b3643af40a5fdfac1212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueData: {fileID: 11400000, guid: b39f7c215d268da4a8b4aa96589c357c, type: 2}
 --- !u!1 &138746620
 GameObject:
   m_ObjectHideFlags: 0
@@ -6200,6 +6214,7 @@ GameObject:
   - component: {fileID: 998678078}
   - component: {fileID: 998678077}
   - component: {fileID: 998678079}
+  - component: {fileID: 998678080}
   m_Layer: 0
   m_Name: ivy_room_18
   m_TagString: Untagged
@@ -6323,6 +6338,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3.0608788, y: 1.3224893}
   m_EdgeRadius: 0
+--- !u!114 &998678080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998678076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69667b50b5b8b3643af40a5fdfac1212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueData: {fileID: 11400000, guid: 4d0cee18b23ce2042989e77999312e70, type: 2}
 --- !u!1 &1031084149
 GameObject:
   m_ObjectHideFlags: 0
@@ -9371,7 +9399,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1799208773}
   - component: {fileID: 1799208772}
-  - component: {fileID: 1799208775}
   m_Layer: 0
   m_Name: ivy_room_10
   m_TagString: Untagged
@@ -9449,19 +9476,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 846318504}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1799208775
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1799208771}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69667b50b5b8b3643af40a5fdfac1212, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueData: {fileID: 11400000, guid: 4d0cee18b23ce2042989e77999312e70, type: 2}
 --- !u!114 &1804084608
 MonoBehaviour:
   m_ObjectHideFlags: 0

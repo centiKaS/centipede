@@ -23,8 +23,14 @@ MonoBehaviour:
   - i dont agree
   - actually
   - did you know?
-  autoProgressLines: 0000000000000000
-  endDialogueLines: 0000000001000001
+  - ...
+  - Lets Larp.
+  - Spill out every last drop.
+  - bang sound effect
+  - ...
+  - yeah
+  autoProgressLines: 0000000000000000000000000000
+  endDialogueLines: 0000000001000000000000000001
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
