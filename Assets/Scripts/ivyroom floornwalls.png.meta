@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 46b553059490de64995dd729ca7eb2b7
+guid: 8b5df3c3a11cae841a98185b948619ea
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2227294742669426013
-    second: download (1)_0
+      213: -6568407916274445802
+    second: ivyroom floornwalls_0
+  - first:
+      213: -1162917718148636413
+    second: ivyroom floornwalls_1
+  - first:
+      213: 7996915715271456184
+    second: ivyroom floornwalls_2
+  - first:
+      213: -8326276155644934804
+    second: ivyroom floornwalls_3
+  - first:
+      213: 3040885564514474442
+    second: ivyroom floornwalls_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -97,7 +109,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -113,23 +125,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: download (1)_0
+      name: ivyroom floornwalls_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 124
         y: 0
-        width: 258
-        height: 195
+        width: 690
+        height: 1746
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a208157b3f0711e0800000000000000
-      internalID: -2227294742669426013
+      spriteID: 61219921dc358d4a0800000000000000
+      internalID: -6568407916274445802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivyroom floornwalls_1
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1615
+        width: 355
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3012eba2f7c7cdfe0800000000000000
+      internalID: -1162917718148636413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivyroom floornwalls_2
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 1273
+        width: 353
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b57e7b3970cafe60800000000000000
+      internalID: 7996915715271456184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivyroom floornwalls_3
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 322
+        width: 1326
+        height: 973
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c658af073ff137c80800000000000000
+      internalID: -8326276155644934804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivyroom floornwalls_4
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 0
+        width: 71
+        height: 966
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac99f734f45633a20800000000000000
+      internalID: 3040885564514474442
       vertices: []
       indices: 
       edges: []
@@ -138,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9a1f8d26ac7b1ff4c953697b857bee9b
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      download (1)_0: -2227294742669426013
+      ivyroom floornwalls_0: -6568407916274445802
+      ivyroom floornwalls_1: -1162917718148636413
+      ivyroom floornwalls_2: 7996915715271456184
+      ivyroom floornwalls_3: -8326276155644934804
+      ivyroom floornwalls_4: 3040885564514474442
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,73 +1,10 @@
 fileFormatVersion: 2
-guid: 3dae23602b26a3f4c96461271a658eb4
+guid: c036504169d7b754da6ccfdc1616bcb9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3171595885172613410
-    second: ivy_room_0
-  - first:
-      213: 1608204351676337682
-    second: ivy_room_1
-  - first:
-      213: 8472976431436327615
-    second: ivy_room_2
-  - first:
-      213: 3657655976283030455
-    second: ivy_room_3
-  - first:
-      213: 1721705150921441595
-    second: ivy_room_4
-  - first:
-      213: -391285465345814388
-    second: ivy_room_5
-  - first:
-      213: 969055283869623373
-    second: ivy_room_6
-  - first:
-      213: -3005325444267142721
-    second: ivy_room_7
-  - first:
-      213: 8497013618174465595
-    second: ivy_room_8
-  - first:
-      213: -1694103319481086778
-    second: ivy_room_9
-  - first:
-      213: 8881990288610328426
-    second: ivy_room_10
-  - first:
-      213: -2802747815031402033
-    second: ivy_room_11
-  - first:
-      213: 5624111677866360091
-    second: ivy_room_12
-  - first:
-      213: 1155335307806944023
-    second: ivy_room_13
-  - first:
-      213: 3976876611105935161
-    second: ivy_room_14
-  - first:
-      213: -7269660005560997044
-    second: ivy_room_15
-  - first:
-      213: 9195646782609948302
-    second: ivy_room_16
-  - first:
-      213: 4397134523472603685
-    second: ivy_room_17
-  - first:
-      213: -4392710264472225801
-    second: ivy_room_18
-  - first:
-      213: 8045822237261845597
-    second: ivy_room_19
-  - first:
-      213: -9055344756142704075
-    second: ivy_room_20
-  - first:
-      213: -364333440235283119
-    second: ivy_room_21
+      213: 8053570569534162654
+    second: ivyroomprops_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -138,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -176,243 +113,265 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ivy_room_2
+      name: ivyroomprops_wardrobe
       rect:
         serializedVersion: 2
-        x: 995
-        y: 1408
-        width: 134
-        height: 187
+        x: 179
+        y: 789
+        width: 223
+        height: 832
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fbae4023c2f069570800000000000000
-      internalID: 8472976431436327615
+      spriteID: be31db68525c16d4b95f3e92a1029a9d
+      internalID: 8053570569534162654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ivy_room_4
+      name: ivyroomprops_closetdoor
       rect:
         serializedVersion: 2
-        x: 1394
-        y: 1354
-        width: 31
-        height: 241
+        x: 426
+        y: 1162
+        width: 313
+        height: 506
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b3102a876b9b4e710800000000000000
-      internalID: 1721705150921441595
+      spriteID: 2c5747e9ed4fd9448a33d3bc886d0b82
+      internalID: -642865799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ivy_room_5
+      name: ivyroomprops_bookshelf
       rect:
         serializedVersion: 2
-        x: 304
-        y: 1348
-        width: 285
-        height: 151
+        x: 776
+        y: 1143
+        width: 383
+        height: 561
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c801a4041ffd19af0800000000000000
-      internalID: -391285465345814388
+      spriteID: d0dd2f47309679741ba6679f7f14a147
+      internalID: -1233006788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ivy_room_7
+      name: ivyroomprops_shelf
       rect:
         serializedVersion: 2
-        x: 668
-        y: 1349
-        width: 261
-        height: 84
+        x: 1215
+        y: 1542
+        width: 612
+        height: 199
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fb1930c6e60fa46d0800000000000000
-      internalID: -3005325444267142721
+      spriteID: a586a4c693ba08f44af62b7c5905795e
+      internalID: 1070636094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ivy_room_9
+      name: ivyroomprops_poster
       rect:
         serializedVersion: 2
-        x: 253
-        y: 901
-        width: 83
-        height: 280
+        x: 1842
+        y: 1405
+        width: 281
+        height: 267
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6cc0585b1065d78e0800000000000000
-      internalID: -1694103319481086778
+      spriteID: d494aff22f08f24408329354bbe47c39
+      internalID: 6499599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ivy_room_10
+      name: ivyroomprops_switch
       rect:
         serializedVersion: 2
-        x: 504
-        y: 900
-        width: 154
-        height: 242
+        x: 2154
+        y: 1517
+        width: 44
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a6f7613db1b234b70800000000000000
-      internalID: 8881990288610328426
+      spriteID: e296a3972aebda043a3f666631776b9a
+      internalID: -56839104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ivy_room_11
+      name: ivyroomprops_exitdoor
       rect:
         serializedVersion: 2
-        x: 759
-        y: 876
-        width: 191
-        height: 272
+        x: 2266
+        y: 973
+        width: 41
+        height: 739
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fc11d0a36b3aa19d0800000000000000
-      internalID: -2802747815031402033
+      spriteID: 3e078ebc418074a4c87d4113e77100d4
+      internalID: -812214678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ivy_room_16
+      name: ivyroomprops_drawers
       rect:
         serializedVersion: 2
-        x: 1267
-        y: 871
-        width: 113
-        height: 147
+        x: 1217
+        y: 1143
+        width: 616
+        height: 398
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e8efd6537008d9f70800000000000000
-      internalID: 9195646782609948302
+      spriteID: 6644c02476fce5e49b54276514bcc1b5
+      internalID: -1462159523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ivy_room_18
+      name: ivyroomprops_tablet
       rect:
         serializedVersion: 2
-        x: 341
-        y: 402
-        width: 331
-        height: 266
+        x: 1988
+        y: 1066
+        width: 92
+        height: 115
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7f7bbecb945f903c0800000000000000
-      internalID: -4392710264472225801
+      spriteID: cda3335b00f5d084e90edcf9e8f51af9
+      internalID: 182630580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ivy_room_20
+      name: ivyroomprops_bed
       rect:
         serializedVersion: 2
-        x: 792
-        y: 429
-        width: 182
-        height: 125
+        x: 1244
+        y: 23
+        width: 1069
+        height: 932
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 53afa6bebe3f45280800000000000000
-      internalID: -9055344756142704075
+      spriteID: 5efecbedec912b14a84be32e0a19fa6a
+      internalID: 2142862839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ivy_room_21
+      name: ivyroomprops_desk
       rect:
         serializedVersion: 2
-        x: 1072
-        y: 393
-        width: 412
-        height: 253
+        x: 190
+        y: 68
+        width: 769
+        height: 497
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 15ddafa9aa0a1faf0800000000000000
-      internalID: -364333440235283119
+      spriteID: 99add98ffe3ac5543924351de64b10dc
+      internalID: 634891501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivyroomprops_bin
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 79
+        width: 122
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b176da6fafe02242a9fdaef9dd3eb84
+      internalID: -100094896
       vertices: []
       indices: 
       edges: []
@@ -421,7 +380,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e91bf319b3ac50d45b57e698ef9d59f9
+    spriteID: f8ec8d13951394845b0eb0a02d42fc95
     internalID: 0
     vertices: []
     indices: 
@@ -431,28 +390,44 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ivy_room_0: 3171595885172613410
-      ivy_room_1: 1608204351676337682
-      ivy_room_10: 8881990288610328426
-      ivy_room_11: -2802747815031402033
-      ivy_room_12: 5624111677866360091
-      ivy_room_13: 1155335307806944023
-      ivy_room_14: 3976876611105935161
-      ivy_room_15: -7269660005560997044
-      ivy_room_16: 9195646782609948302
-      ivy_room_17: 4397134523472603685
-      ivy_room_18: -4392710264472225801
-      ivy_room_19: 8045822237261845597
-      ivy_room_2: 8472976431436327615
-      ivy_room_20: -9055344756142704075
-      ivy_room_21: -364333440235283119
-      ivy_room_3: 3657655976283030455
-      ivy_room_4: 1721705150921441595
-      ivy_room_5: -391285465345814388
-      ivy_room_6: 969055283869623373
-      ivy_room_7: -3005325444267142721
-      ivy_room_8: 8497013618174465595
-      ivy_room_9: -1694103319481086778
+      ivyroomprops_10: 430729822
+      ivyroomprops_11: -1809194873
+      ivyroomprops_12: 74799264
+      ivyroomprops_13: -728682162
+      ivyroomprops_14: -337005979
+      ivyroomprops_15: 1464201055
+      ivyroomprops_16: -34182501
+      ivyroomprops_17: 181247075
+      ivyroomprops_18: 1063939144
+      ivyroomprops_19: -466299419
+      ivyroomprops_20: -307235502
+      ivyroomprops_21: 661333478
+      ivyroomprops_22: -313650499
+      ivyroomprops_23: -775043392
+      ivyroomprops_24: 1395996551
+      ivyroomprops_25: -85576693
+      ivyroomprops_26: -651722536
+      ivyroomprops_27: 1367315910
+      ivyroomprops_28: 1716327659
+      ivyroomprops_29: -1732507948
+      ivyroomprops_30: -1189816247
+      ivyroomprops_31: -1619778922
+      ivyroomprops_32: 603327028
+      ivyroomprops_35: 1459027007
+      ivyroomprops_8: 948797137
+      ivyroomprops_9: -1182593538
+      ivyroomprops_bed: 2142862839
+      ivyroomprops_bin: -100094896
+      ivyroomprops_bookshelf: -1233006788
+      ivyroomprops_closetdoor: -642865799
+      ivyroomprops_desk: 634891501
+      ivyroomprops_drawers: -1462159523
+      ivyroomprops_exitdoor: -812214678
+      ivyroomprops_poster: 6499599
+      ivyroomprops_shelf: 1070636094
+      ivyroomprops_switch: -56839104
+      ivyroomprops_tablet: 182630580
+      ivyroomprops_wardrobe: 8053570569534162654
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
